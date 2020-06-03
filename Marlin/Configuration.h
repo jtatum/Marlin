@@ -248,7 +248,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 
 #if ENABLED(BED_PROBE_GRID_COUNT)  //You can ignore this line of code
 
-#define GRID_MAX_POINTS_X 3                 //Recommended value: 4. If you want to probe a 3x3 grid (9 times), choose 3. Choose 5 if you want to probe a 5x5 grid (25 times)
+#define GRID_MAX_POINTS_X 4                 //Recommended value: 4. If you want to probe a 3x3 grid (9 times), choose 3. Choose 5 if you want to probe a 5x5 grid (25 times)
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X //You can ignore this line of code if you are unfamiliar with it. 
 #endif
 
@@ -589,7 +589,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 #define SWITCHING_TOOLHEAD_X_SECURITY \
   {                                   \
     90, 150                           \
-  } // (mm) Security distance X axis (T0,T1)
+  } // (mm) Security distance X axis (T0,T1) \
     //#define PRIME_BEFORE_REMOVE                       // Prime the nozzle before release from the dock
     #if ENABLED(PRIME_BEFORE_REMOVE)
       #define SWITCHING_TOOLHEAD_PRIME_MM           20  // (mm)   Extruder prime length
