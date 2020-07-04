@@ -257,7 +257,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 
 /*** *** ***  Section 11B - Customize your BLTOUCH/ Capacitive sensor settings here. Otherwise ignore this section *** *** ***/
 
-#define MIN_PROBE_EDGE 10 //Change this value to 20 if you have clips holding down your print surface. 10 is a good value if you don't have clips. This is how far you want your BLtouch to probe from the EDGES of the bed
+#define MIN_PROBE_EDGE 20 //Change this value to 20 if you have clips holding down your print surface. 10 is a good value if you don't have clips. This is how far you want your BLtouch to probe from the EDGES of the bed
 
 /*** *** ***  Section 11C - Customize your Manual Mesh bed leveling settings here. Otherwise ignore this section *** *** ***/
 
